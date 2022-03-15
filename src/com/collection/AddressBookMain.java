@@ -1,5 +1,21 @@
 package com.collection;
+/**
+ * UC1 :- Ability to create a Contacts in Address Book with first and last names, address,
+ *        city, state, zip, phone number and email...
+ * UC2 :- Ability to add a new Contact to Address Book
+ * UC3 :- Ability to edit existing contact person using their name
+ * UC4 :- Ability to delete a person using person's name
+ * UC5 :- Ability to add multiple person to Address Book
+ * UC6 :- Refactor to add multiple Address Book to the System Each Address Book has a unique Name
+ * UC7 :- Ability to ensure there is no Duplicate Entry of the same Person in a particular Address Book
+ * UC8 :- Ability to search Person in a City or State across the multiple AddressBook
+ * UC9 :- Ability to view Persons by City or State
+ * UC10 :- Ability to get number of contact persons i.e. count by City or State
+ */
 
+/**
+ * import class
+ */
 import java.util.*;
 
 /**
@@ -32,7 +48,7 @@ public class AddressBookMain {
             System.out.println("\nWelcome to Address Book System");
             System.out.println("1. New Address Book \n2. Select Address Book \n3. Delete Address Book \n4. Search Contact Data \n5. Exit");
             /**
-             * choose the option what u want 
+             * choose the option what u want
              */
             System.out.print("Enter Your choice: ");
             int choice = sc.nextInt();
@@ -90,8 +106,12 @@ public class AddressBookMain {
                     addressBook.viewByOption(addressBookMap);
                     break;
                 case 6:
+                    System.out.println("Welcome to the couter");
+                    addressBook.countByOption();
+                    break;
+                case 7:
                     /**
-                     * closing the sacnner
+                     * closing the scanner
                      */
                     sc.close();
                     return;
