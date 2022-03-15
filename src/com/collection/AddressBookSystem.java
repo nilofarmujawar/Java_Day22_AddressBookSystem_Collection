@@ -85,17 +85,28 @@ public class AddressBookSystem {
     }
 
     /**
+     * create a method name as viewByName
      * Method to view person
-     * @param nameHashMap
+     * @param nameHashMap 
      */
     public static void viewByName(Map<String, Contacts> nameHashMap) {
         nameHashMap.entrySet().stream().forEach(e -> System.out.println(e.getKey() + "=" + e.getValue().toString()));
     }
-
+    
+     /**
+     * create a method name as viewByCity
+     * Method to view person
+     * @param cityHashMap 
+     */
     public static void viewByCity(Map<String, Contacts> cityHashMap) {
         cityHashMap.entrySet().stream().forEach(e -> System.out.println(e.getKey() + "=" + e.getValue().toString()));
     }
-
+     
+    /**
+     * create a method name as viewByState
+     * Method to view person
+     * @param stateHashMap 
+     */
     public static void viewByState(Map<String, Contacts> stateHashMap) {
         stateHashMap.entrySet().stream().forEach(e -> System.out.println(e.getKey() + "=" + e.getValue().toString()));
     }
