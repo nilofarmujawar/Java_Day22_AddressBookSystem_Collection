@@ -9,7 +9,7 @@ package com.collection;
  * UC6 :- Refactor to add multiple Address Book to the System Each Address Book has a unique Name
  * UC7 :- Ability to ensure there is no Duplicate Entry of the same Person in a particular Address Book
  * UC8 :- Ability to search Person in a City or State across the multiple AddressBook
- * UC9 :- Ability to get number of contact persons i.e. count by City or State
+ * UC9 :- Ability to view Persons by City or State
  */
 
 /**
