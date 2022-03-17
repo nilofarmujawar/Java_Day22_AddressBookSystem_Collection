@@ -1,7 +1,14 @@
 package com.collection;
 
-import java.util.*;
+/**
+ * import hashmap,Iterator,Map,Scanner,Set.
+ */
 
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.Set;
 /**
  * create a class name as AddressBookMain
  */
@@ -32,7 +39,7 @@ public class AddressBookMain {
             System.out.println("\nWelcome to Address Book System");
             System.out.println("1. New Address Book \n2. Select Address Book \n3. Delete Address Book \n4. Search Contact Data \n5. Exit");
             /**
-             * choose the option what u want 
+             * choose the option what u want
              */
             System.out.print("Enter Your choice: ");
             int choice = sc.nextInt();
